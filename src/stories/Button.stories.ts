@@ -21,7 +21,7 @@ export const Primary = Template.bind({});
 // More on args: https://storybook.js.org/docs/angular/writing-stories/args
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'Click me!!',
 };
 
 export const Secondary = Template.bind({});
@@ -29,14 +29,9 @@ Secondary.args = {
   label: 'Button',
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
+export const Focus = Template.bind({});
+Focus.args = {
   label: 'Button',
+  type: 'focus'
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
-};
