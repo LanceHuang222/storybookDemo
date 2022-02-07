@@ -20,12 +20,6 @@ export default class ButtonComponent {
   @Input()
   primary = false;
 
-  /**
-   * What background color to use
-   */
-  @Input()
-  backgroundColor?: string;
-
   @Input()
   type: 'general' | 'focus' | 'red' | 'green'| 'purple' | 'blue' = 'general';
   /**
@@ -37,6 +31,12 @@ export default class ButtonComponent {
   label = 'Button';
 
   /**
+   * What background color to use
+   */
+  @Input()
+  backgroundColor?: string;
+  /**
+   *
    * Optional click handler
    */
   @Output()

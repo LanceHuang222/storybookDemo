@@ -31,7 +31,14 @@ Secondary.args = {
 
 export const Focus = Template.bind({});
 Focus.args = {
+  primary: true,
   label: 'Button',
   type: 'focus'
 };
 
+export const FocusSecondary = Template.bind({});
+FocusSecondary.args = {
+  primary: false,
+  label: 'Button222',
+  type: 'focus'
+};
